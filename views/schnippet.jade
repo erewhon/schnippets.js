@@ -1,0 +1,16 @@
+//
+   Created by erewhon on 3/8/14.
+
+extends layout
+
+block content
+    div
+        form(method="POST")
+            p Hi, skippy!
+            p
+                | What did you do
+                = when
+                | ?  What are you doing next?  And what kind of issues did you run into?
+            textarea(name="stuff", placeholder="Enter schtuff", cols="80", rows="20")
+            br
+            input(type="submit", value="Save it!")
