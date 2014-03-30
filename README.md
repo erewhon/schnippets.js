@@ -1,3 +1,14 @@
+# Quickstart
+
+   git clone git@github.com:erewhon/schnippets.js.gito
+   cd schnippets.js
+   edit config/config.json
+   mysql -u root < tables.sql
+   npm install
+   node server.js
+   open http://localhost/
+
+   ./scripts/push-via-rsync somehost:/some/dir    <optional if you want to deploy it>
 
 # Knobs
 
@@ -41,3 +52,4 @@ http://ericleads.com/2013/05/getting-started-with-node-and-express/
 
 @@ email
 %p Your daily email
+

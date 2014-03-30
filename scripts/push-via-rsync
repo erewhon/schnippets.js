@@ -1,0 +1,6 @@
+#!/bin/bash
+# ghetto deployer!
+
+TARGET=$1
+
+rsync -Pavz config mailer.js node_modules server.js static views $TARGET
